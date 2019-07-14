@@ -17,17 +17,17 @@ The file mnist_testdata.hdf5 (not uploaded here due to size constraints) contain
 Refer to the file `Different Configurations Report.pdf` for details and graphs on the various configurations of the MLP.
 
 The best accuracy was obtained using the following configuration:
-Input Layer - 784 neurons
-1 Hidden layer of 512 neurons
-Output Layer - 10 neurons
-Batch Size – 50
-Epoch – 50
-Learning Rate - 0.09
-Activation in Intermediate Layers – ReLu Activation
-Activation in Output Layer – Softmax
-Parameter Initialization – He Normalization
-Final Training Accuracy : 99.99%
-Final Test Accuracy : 98.26%
+- Input Layer - 784 neurons
+- 1 Hidden layer of 512 neurons
+- Output Layer - 10 neurons
+- Batch Size – 50
+- Epoch – 50
+- Learning Rate - 0.09
+- Activation in Intermediate Layers – ReLu Activation
+- Activation in Output Layer – Softmax
+- Parameter Initialization – He Normalization
+- Final Training Accuracy : 99.99%
+- Final Test Accuracy : 98.26%
 
 ## Evaluation
 Models are scored on classification accuracy which is simply the number of correct classifications divided by the total number of elements in the test set.
